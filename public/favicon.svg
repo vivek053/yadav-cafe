@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffe27a"/>
+      <stop offset="50%" stop-color="#ffb400"/>
+      <stop offset="100%" stop-color="#d98200"/>
+    </linearGradient>
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#11421b"/>
+      <stop offset="100%" stop-color="#051408"/>
+    </radialGradient>
+  </defs>
+  <!-- Background Circle -->
+  <circle cx="32" cy="32" r="30" fill="url(#bgGrad)" stroke="url(#goldGrad)" stroke-width="2.5"/>
+  
+  <!-- Stylized Y Monogram -->
+  <path d="M 19 16 L 32 34 L 45 16" fill="none" stroke="url(#goldGrad)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 32 34 L 32 48" fill="none" stroke="url(#goldGrad)" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Subtle coffee cup / crown dot above -->
+  <circle cx="32" cy="13" r="2.5" fill="#ffe27a"/>
+</svg>
